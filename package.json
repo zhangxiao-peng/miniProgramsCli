@@ -1,0 +1,20 @@
+{
+  "name": "miniprograms",
+  "version": "1.0.0",
+  "description": "基于gulp的小程序框架",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "author": "zyp",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "del": "^6.0.0"
+  }
+}
